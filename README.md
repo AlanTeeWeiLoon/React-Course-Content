@@ -26,6 +26,12 @@ Component - Smallest Unit of Interface
 ## How React Work
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/d4c370a7-2975-4393-838d-fe71f85b6153)
 
+# Hooks
+
+## UseState
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/78373073-0ae6-417f-80ce-900c5a7e49ff)
+
+
 
 # Appedixes
 ## Required Installations 
