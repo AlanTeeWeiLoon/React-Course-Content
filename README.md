@@ -66,8 +66,15 @@ Component - Smallest Unit of Interface
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/6e00835e-4245-45c9-ae99-fd8327fd743f)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/bf34b382-e714-476d-8491-a66eb6c25086)
 
+---
 
-
+# REDUX
+State Mangement Library
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/72488795-976b-4dfb-9d78-b68955398456)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/06596943-4aab-4346-8282-7366a1357f3f)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/5a5e5932-ab09-40b9-bc79-8dad59a3e80b)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/ad6e6cf3-6159-4083-aba1-87069307b1cc)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/214f8e15-e692-43cf-93a7-0f2c0b1692ee)
 
 
 ---
