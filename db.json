@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin12345",
+      "name": "ADMIN",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "email": "guest@gmail.com",
+      "password": "guest12345",
+      "name": "GUEST",
+      "role": "Guest"
+    },
+    {
+      "email": "alan1@gmail.com",
+      "password": "alan12345",
+      "name": "alan1",
+      "role": "Guest",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "postId": 1,
+      "id": 1,
+      "name": "Name 1",
+      "email": "Eliseo@gardner.biz",
+      "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+      "postId": 1,
+      "id": 2,
+      "name": "quo vero reiciendis velit similique earum",
+      "email": "Jayne_Kuhic@sydney.com",
+      "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+      "postId": 1,
+      "id": 3,
+      "name": "odio adipisci rerum aut animi",
+      "email": "Nikita@garfield.biz",
+      "body": "Data Edited"
+    },
+    {
+      "postId": 1,
+      "id": 4,
+      "name": "Name 4",
+      "email": "Lew@alysha.tv",
+      "body": "Changed Body of record 4"
+    },
+    {
+      "postId": 1,
+      "id": 5,
+      "name": "vero eaque aliquid doloribus et culpa",
+      "email": "Hayden@althea.biz",
+      "body": "Edited Data"
+    },
+    {
+      "postId": 2,
+      "id": 7,
+      "name": "repellat consequatur praesentium vel minus molestias voluptatum",
+      "email": "Dallas@ole.me",
+      "body": "maiores sed dolores similique labore et inventore et\nquasi temporibus esse sunt id et\neos voluptatem aliquam\naliquid ratione corporis molestiae mollitia quia et magnam dolor"
+    },
+    {
+      "postId": 2,
+      "id": 8,
+      "name": "et omnis dolorem",
+      "email": "Mallory_Kunze@marie.org",
+      "body": "ut voluptatem corrupti velit\nad voluptatem maiores\net nisi velit vero accusamus maiores\nvoluptates quia aliquid ullam eaque"
+    },
+    {
+      "name": "Peter Parker",
+      "email": "peter@gmail.com",
+      "body": "Peter is a spider men !",
+      "id": 9
+    }
+  ]
+}
