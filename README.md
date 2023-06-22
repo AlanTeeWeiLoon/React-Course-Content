@@ -75,10 +75,10 @@ ES7+ React/Redux/React-Native snippets
 ### Install the axios library : 
 `npm install axios` 
 
-### Install json server 
+### Install JSON server 
 `npm install -g json-server`
 
-### Start json server
+### Start JSON server
 `json-server db.json  - -port 4000`
 
 
