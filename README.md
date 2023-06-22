@@ -48,6 +48,10 @@ Component - Smallest Unit of Interface
 
 ---
 
+# Axios
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/faecd7f5-0001-4988-b430-280c5ba4c2ec)
+
+---
 # Appedixes
 ## Required Installations 
 
@@ -67,6 +71,16 @@ ES7+ React/Redux/React-Native snippets
 
 ### Command to start the development server : 
 `npm start`
+
+### Install the axios library : 
+`npm install axios` 
+
+### Install JSON server 
+`npm install -g json-server`
+
+### Start JSON server
+`json-server db.json  - -port 4000`
+
 
 
 
