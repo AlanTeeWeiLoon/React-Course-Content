@@ -1,5 +1,7 @@
 # React Course Content
 
+---
+
 ## Introduction to React 
 
 Component - Smallest Unit of Interface
@@ -22,9 +24,13 @@ Component - Smallest Unit of Interface
 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/447d836a-4333-47cb-ba45-8190ce9591c3)
 
+---
+
 # Page Setup
 ## How React Work
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/d4c370a7-2975-4393-838d-fe71f85b6153)
+
+---
 
 # Hooks
 
@@ -40,10 +46,7 @@ Component - Smallest Unit of Interface
 ## UseRef
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/2db1e036-d426-43f7-b65a-7327eace94eb)
 
-
-
-
-
+---
 
 # Appedixes
 ## Required Installations 
