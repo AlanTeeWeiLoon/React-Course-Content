@@ -48,8 +48,13 @@ Component - Smallest Unit of Interface
 
 ---
 
-# Axios
+# AXIOS
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/faecd7f5-0001-4988-b430-280c5ba4c2ec)
+
+---
+
+# Higher Order Components (HOC)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/4f5049f9-afb7-4b90-ab17-38cad74b0465)
 
 ---
 # Appedixes
@@ -72,7 +77,7 @@ ES7+ React/Redux/React-Native snippets
 ### Command to start the development server : 
 `npm start`
 
-### Install the axios library : 
+### Install the AXIOS library : 
 `npm install axios` 
 
 ### Install JSON server 
