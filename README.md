@@ -76,7 +76,7 @@ State Mangement Library
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/ad6e6cf3-6159-4083-aba1-87069307b1cc)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/214f8e15-e692-43cf-93a7-0f2c0b1692ee)
 
-###### Lifecycle of Redux 
+#### Lifecycle of Redux 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/8ab4d8a4-c6cc-4791-8c77-6b6fa2c5eca1)
 
 
