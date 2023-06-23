@@ -44,14 +44,14 @@ function App() {
     // <Todo /> // --------------------------------- Sample application using UseState hook
     // <UseRef_Demo />  // ------------------------- UseRef
     // <UseWindowWidth /> // ----------------------- Create a custom hook as useWindowWidth to detect screen size
-    // <AxiosComment /> // ------------------------------ AXIOS - GET, POST, PUT, DELETE Method example
+    // <AxiosComment /> // ------------------------- AXIOS - GET, POST, PUT, DELETE Method example
     // <HOC /> // ---------------------------------- Higher Order Components (HOC) Demo
     // <UseContext_Demo /> // ---------------------- UseContext
     // <UseReducer_Demo /> // ---------------------- UseReducer
     // <UseMemo_Demo /> // ------------------------- UseMemo
     // <UseCallBack_Demo /> // --------------------- UseCallBack
     // <Controlled_Uncontrolled_Component /> // ---- Controlled and Uncontrolled Component
-    // <Redux_Demo /> // --------------------------- Use CakeShop as Example to demo Action, Reducer, Store
+    // <Redux_Demo /> // --------------------------- Use Cake Shop as Example to demo Action, Reducer, Store
 
     <BrowserRouter>
       <Menu />
