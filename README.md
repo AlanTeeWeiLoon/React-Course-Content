@@ -109,7 +109,7 @@ State Mangement Library
 
 ---
 
-# Authentication
+# LocalStorage & SessionStorage
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c212468e-5999-4027-9996-2877939b6362)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c6fbee6e-18d4-4e7b-bfb5-7e22566f0fcb)
 
