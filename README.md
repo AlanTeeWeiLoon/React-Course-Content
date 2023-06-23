@@ -18,6 +18,19 @@ Component - Smallest Unit of Interface
 ## SIngle Page Application
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/447d836a-4333-47cb-ba45-8190ce9591c3)
 
+## Controlled component and Uncontrolled Component
+### Controlled Component
+<p>Controlled Components are those in which forms' data is handled by the component’s state. It takes its current value through props and makes changes through callbacks like onClick, onChange, etc. A parent component manages its own state and passes the new value as props to the controlled component.</p>
+
+### Uncontrolled Component
+<p>Uncontrolled Components are the components that are not controlled by the React state and are handled by the DOM. So in order to access any value that has been entered we take help of refs
+</p>
+
+## What is Babel?
+
+<p>Babel is a combination of Compiler and also transpiles. Therefore it is known as Transpiler. Babel is a library for transpiling different js or ts code into browser compatible code.
+</p>
+
 ---
 
 # Page Setup
@@ -28,6 +41,7 @@ Component - Smallest Unit of Interface
 ---
 
 # Hooks
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/d79a1aee-091b-4c17-8c36-b8be47b8ace7)
 
 ## UseState
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/78373073-0ae6-417f-80ce-900c5a7e49ff)
@@ -39,6 +53,12 @@ Component - Smallest Unit of Interface
 
 ## UseRef
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/2db1e036-d426-43f7-b65a-7327eace94eb)
+
+## UseContext
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/24e43c30-4d45-4319-b024-99860b351c9e)
+
+## UseReducer
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/053c7e71-7a40-4220-883b-5495b4bab2a4)
 
 ---
 
