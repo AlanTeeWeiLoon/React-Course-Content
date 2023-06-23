@@ -82,6 +82,15 @@ State Mangement Library
 
 ---
 
+# Router
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/08567fa7-7326-401f-98cd-1581f0f2402f)
+
+### Nested Routing
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/912fc314-e638-4210-a5ef-cc47f06e0813)
+
+
+---
+
 # Appedixes
 ## Required Installations 
 
@@ -116,6 +125,9 @@ ES7+ React/Redux/React-Native snippets
 
 ### Installation of react-redux :
 `npm install react-redux`
+
+### Install Router : 
+`npm install react-router-dom`
 
 
 
