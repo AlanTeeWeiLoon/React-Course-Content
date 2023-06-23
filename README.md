@@ -79,7 +79,6 @@ State Mangement Library
 #### Lifecycle of Redux 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/8ab4d8a4-c6cc-4791-8c77-6b6fa2c5eca1)
 
-
 ---
 
 # Router
@@ -88,8 +87,15 @@ State Mangement Library
 ### Nested Routing
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/912fc314-e638-4210-a5ef-cc47f06e0813)
 
+---
+
+# Authentication
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c212468e-5999-4027-9996-2877939b6362)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c6fbee6e-18d4-4e7b-bfb5-7e22566f0fcb)
 
 ---
+
+
 
 # Appedixes
 ## Required Installations 
