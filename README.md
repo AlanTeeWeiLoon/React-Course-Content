@@ -26,6 +26,11 @@ Component - Smallest Unit of Interface
 <p>Uncontrolled Components are the components that are not controlled by the React state and are handled by the DOM. So in order to access any value that has been entered we take help of refs
 </p>
 
+## What is Babel?
+
+<p>Babel is a combination of Compiler and also transpiles. Therefore it is known as Transpiler. Babel is a library for transpiling different js or ts code into browser compatible code.
+</p>
+
 ---
 
 # Page Setup
