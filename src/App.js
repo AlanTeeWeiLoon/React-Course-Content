@@ -34,6 +34,7 @@ import UseCallBack_Demo from "./Components/Hooks/UseCallBack/UseCallBack_Demo";
 import Controlled_Uncontrolled_Component from "./Components/Controlled_Uncontrolled_Component/index";
 import Redux_Demo from "./Components/ReduxComponent/index";
 import UseEffect_Demo from "./Components/Hooks/UseEffect/UseEffect_Demo";
+import UseLayoutEffect_Demo from "./Components/Hooks/UseLayoutEffect/UseLayoutEffect_Demo";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
     // <Controlled_Uncontrolled_Component /> // ---- Controlled and Uncontrolled Component
     // <Redux_Demo /> // --------------------------- Use Cake Shop as Example to demo Action, Reducer, Store
     // <UseEffect_Demo /> // ----------------------- UseEffect
+    // <UseLayoutEffect_Demo /> // ----------------- UseLayoutEffect
 
     <BrowserRouter>
       <Menu />
