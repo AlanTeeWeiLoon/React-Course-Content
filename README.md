@@ -3,14 +3,19 @@
 ---
 
 ## Introduction to React 
-Component - Smallest Unit of Interface
+<p>React is an open-source JavaScript framework and library. It's uses Webpack to compile React, JSX, and ES6, auto-prefix CSS files.</p>
+<p><b>Component</b> - Smallest Unit of Interface<p/>
+  
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/fa82e43c-6722-452a-807d-b4a2a2d4b61c)
+<p>Every part of the webpage can spread into small components, and all the component is reuseable.</p>
 
 ## Traditional Way of Development
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/371676a2-33d8-41b0-ba37-b5efdb73fd0c)
+<p>Everytime when any of the element update, will re-render the entire DOM again, this causes a lot of unnecessary workload!</p>
 
 ## React Virtual DOM 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/5c032f71-38e2-4298-be06-c0e3ad9dfcee)
+<p>In React, will create a Virtual DOM and do compare with the Real DOM, and only re-render the updated component or element instead of entire DOM, greatly improve the performance of an application.</p>
 
 ## Traditional Page Application
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/a7d937dc-aad0-42ba-af46-b66a8838da84)
