@@ -66,9 +66,10 @@ Background: When Facebook created React, the main concept introduced into React 
 
 ## UseState
 
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/78373073-0ae6-417f-80ce-900c5a7e49ff)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/aa675ca7-ca36-46fd-986e-3a7e0e7e495d)
 
-<p>To create local variables in React</p>
+
+<p>In React, that is a new way to create variable. If we need to create local variables in React, then need to use state variables. State variables are created using <b>useState</b> hook. </p>
 
 ## UseEffect
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/658586d6-828f-4955-94f7-0d74afeb3678)
