@@ -4,43 +4,59 @@
 
 ## Introduction to React 
 <p>React is an open-source JavaScript framework and library. It's uses Webpack to compile React, JSX, and ES6, auto-prefix CSS files.</p>
-<p><b>Component</b> - Smallest Unit of Interface<p/>
-  
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/fa82e43c-6722-452a-807d-b4a2a2d4b61c)
-<p>Every part of the webpage can spread into small components, and all the component is reuseable.</p>
 
-## Traditional Way of Development
+### JSX
+
+Background: When Facebook created React, the main concept introduced into React was that we had to write a lot of HTML in JavaScript because JS was very performant.
+
+- JSX is not "HTML inside JavaScript", but it has "HTML-like" syntax
+- Browser cannot understand JSX, so need **Babel** to convert it.
+- Advantages:
+    - Developer experience
+    - Readability
+    - Less code
+    - Maintainability
+    - No repetition
+
+### DOM
+#### Traditional Way of Development
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/371676a2-33d8-41b0-ba37-b5efdb73fd0c)
 <p>Everytime when any of the element update, will re-render the entire DOM again, this causes a lot of unnecessary workload!</p>
 
-## React Virtual DOM 
+#### React Virtual DOM 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/5c032f71-38e2-4298-be06-c0e3ad9dfcee)
-<p>In React, will create a Virtual DOM and do compare with the Real DOM, and only re-render the updated component or element instead of entire DOM, greatly improve the performance of an application.</p>
 
-## Traditional Page Application
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/a7d937dc-aad0-42ba-af46-b66a8838da84)
+<p>We need Virtual DOM for <b>Reconcilation</b>. Reconcilation is an algorithum that React used to different one component tree from others. It do compare and determine what needs to change and what does not in UI. <b>To find out DIFFERENT between one <i>tree</i> (ACTUAL DOM) and other (VIRTUAL DOM)</b>.</p>
 
-## SIngle Page Application
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/447d836a-4333-47cb-ba45-8190ce9591c3)
+### Component
+  
+- Smallest Unit of Interface
+- Everything is a component in React
+- Two types:
+    - Functional component - NEW
+    - Class based component - OLD
 
-## Controlled component and Uncontrolled Component
-### Controlled Component
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/fa82e43c-6722-452a-807d-b4a2a2d4b61c)
+<p>Every part of the webpage can spread into small components, and all the component is reuseable.</p>
+
+### Controlled component and Uncontrolled Component
+#### Controlled Component
 <p>Controlled Components are those in which forms' data is handled by the component’s state. It takes its current value through props and makes changes through callbacks like onClick, onChange, etc. A parent component manages its own state and passes the new value as props to the controlled component.</p>
 
-### Uncontrolled Component
+#### Uncontrolled Component
 <p>Uncontrolled Components are the components that are not controlled by the React state and are handled by the DOM. So in order to access any value that has been entered we take help of refs
 </p>
 
-## What is Babel?
+### What is Babel?
 
-<p>Babel is a combination of Compiler and also transpiles. Therefore it is known as Transpiler. Babel is a library for transpiling different js or ts code into browser compatible code.
+<p>To know Babel, we have to know what is <b>Pollyfill</b>. To make older browers understand our new code, the new code is converted into a older code, which browser can understand called Pollyfill. Babel do this conversion automatically.</p>
+
+<p>E.g. - ES6 is the newer version of JavaScript, if I'm working on 1999's browser, my browser will not understand what is `const`, `new Promise`, etc. So, there is a replacement code for these functionalities which is compatible with older version of browsers.</p>
+
+<p>Babel is a combination of compiler and also transpiles. Therefore it is known as Transpiler. Babel is a library for transpiling different js or ts code into browser compatible code.
 </p>
 
----
-
-# Page Setup
-
-## How React Work
+### How React Work
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/d4c370a7-2975-4393-838d-fe71f85b6153)
 
 ---
@@ -49,7 +65,10 @@
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/d79a1aee-091b-4c17-8c36-b8be47b8ace7)
 
 ## UseState
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/78373073-0ae6-417f-80ce-900c5a7e49ff)
+
+<p>To create local variables in React</p>
 
 ## UseEffect
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/658586d6-828f-4955-94f7-0d74afeb3678)
