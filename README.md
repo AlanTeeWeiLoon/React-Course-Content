@@ -212,45 +212,7 @@ In React, we can use react-router-dom library's `<Link>` tag instaed of  `<a>` t
 #### Methods of LocalStorage & SessionStorage
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c6fbee6e-18d4-4e7b-bfb5-7e22566f0fcb)
 
----
 
-# Appedixes
-## Required Installations 
-
-### Node js
-https://nodejs.org/en
-
-### VS Code
-https://code.visualstudio.com/download
-
-### VS Code Extensions
-ES7+ React/Redux/React-Native snippets
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/4fc57f61-351a-460a-942c-78f0d56a5008)
-
-
-### Command to create a react project : 
-`npx create-react-app projectName`
-
-### Command to start the development server : 
-`npm start`
-
-### Install the AXIOS library : 
-`npm install axios` 
-
-### Install JSON server :
-`npm install -g json-server`
-
-### Start JSON server :
-`json-server db.json  - -port 4000`
-
-### Installation of redux :
-`npm install redux`
-
-### Installation of react-redux :
-`npm install react-redux`
-
-### Install Router : 
-`npm install react-router-dom`
 
 
 
