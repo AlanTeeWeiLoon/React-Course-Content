@@ -68,7 +68,6 @@ Background: When Facebook created React, the main concept introduced into React 
 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/aa675ca7-ca36-46fd-986e-3a7e0e7e495d)
 
-
 <p>In React, that is a new way to create variable. If we need to create local variables in React, then need to use state variables. State variables are created using <b>useState</b> hook. </p>
 
 ## UseEffect
@@ -146,17 +145,11 @@ const getData = () => {
 
 ---
 
-# Higher Order Components (HOC)
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/4f5049f9-afb7-4b90-ab17-38cad74b0465)
-
----
-
 # MVC (MODAL, VIEW, CONTROLLER)
 
 #### What is MVC?
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c43f9e4e-c072-41d3-b10d-bb1cfa2b2583)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/b0aa4bad-0c44-48f7-8c8d-8f1a7b93bd1e)
-
 
 ---
 
