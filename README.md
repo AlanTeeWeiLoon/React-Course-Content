@@ -209,6 +209,7 @@ const getData = () => {
     - don't do full page reload
 
 In React, we can use react-router-dom library's `<Link>` tag instaed of  `<a>` tag
+
 ---
 
 # LocalStorage & SessionStorage
