@@ -68,6 +68,7 @@ Background: When Facebook created React, the main concept introduced into React 
 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/aa675ca7-ca36-46fd-986e-3a7e0e7e495d)
 
+
 <p>In React, that is a new way to create variable. If we need to create local variables in React, then need to use state variables. State variables are created using <b>useState</b> hook. </p>
 
 ## UseEffect
@@ -145,11 +146,17 @@ const getData = () => {
 
 ---
 
+# Higher Order Components (HOC)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/4f5049f9-afb7-4b90-ab17-38cad74b0465)
+
+---
+
 # MVC (MODAL, VIEW, CONTROLLER)
 
 #### What is MVC?
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c43f9e4e-c072-41d3-b10d-bb1cfa2b2583)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/b0aa4bad-0c44-48f7-8c8d-8f1a7b93bd1e)
+
 
 ---
 
@@ -212,7 +219,45 @@ In React, we can use react-router-dom library's `<Link>` tag instaed of  `<a>` t
 #### Methods of LocalStorage & SessionStorage
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c6fbee6e-18d4-4e7b-bfb5-7e22566f0fcb)
 
+---
 
+# Appedixes
+## Required Installations 
+
+### Node js
+https://nodejs.org/en
+
+### VS Code
+https://code.visualstudio.com/download
+
+### VS Code Extensions
+ES7+ React/Redux/React-Native snippets
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/4fc57f61-351a-460a-942c-78f0d56a5008)
+
+
+### Command to create a react project : 
+`npx create-react-app projectName`
+
+### Command to start the development server : 
+`npm start`
+
+### Install the AXIOS library : 
+`npm install axios` 
+
+### Install JSON server :
+`npm install -g json-server`
+
+### Start JSON server :
+`json-server db.json  - -port 4000`
+
+### Installation of redux :
+`npm install redux`
+
+### Installation of react-redux :
+`npm install react-redux`
+
+### Install Router : 
+`npm install react-router-dom`
 
 
 
