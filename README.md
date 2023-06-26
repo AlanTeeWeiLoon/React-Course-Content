@@ -146,11 +146,6 @@ const getData = () => {
 
 ---
 
-# Higher Order Components (HOC)
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/4f5049f9-afb7-4b90-ab17-38cad74b0465)
-
----
-
 # MVC (MODAL, VIEW, CONTROLLER)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c43f9e4e-c072-41d3-b10d-bb1cfa2b2583)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/b0aa4bad-0c44-48f7-8c8d-8f1a7b93bd1e)
