@@ -146,7 +146,14 @@ const getData = () => {
 
 ---
 
+# Higher Order Components (HOC)
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/4f5049f9-afb7-4b90-ab17-38cad74b0465)
+
+---
+
 # MVC (MODAL, VIEW, CONTROLLER)
+
+#### What is MVC?
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c43f9e4e-c072-41d3-b10d-bb1cfa2b2583)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/b0aa4bad-0c44-48f7-8c8d-8f1a7b93bd1e)
 
@@ -154,20 +161,29 @@ const getData = () => {
 ---
 
 # FLUX
+#### What is FLUX?
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/fd54d6cc-3a9b-4020-8378-6366d1ed5125)
+
+#### FLUX Components 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/8fe69d57-477f-42e2-860a-15783b345fb5)
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/609921ba-79ca-400b-8f42-51548c4a107e)
+
+#### FLUX lifecycle
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/6e00835e-4245-45c9-ae99-fd8327fd743f)
+
+#### Conclusion:
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/bf34b382-e714-476d-8491-a66eb6c25086)
 
 ---
 
-# REDUX
-State Mangement Library
+# REDUX - State Mangement Library
+#### Why need Redux? (As previously mentioned able to solve props drilling issue)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/72488795-976b-4dfb-9d78-b68955398456)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/06596943-4aab-4346-8282-7366a1357f3f)
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/ad6e6cf3-6159-4083-aba1-87069307b1cc)
 
+#### Comparison of Redux vs FLUX:
+![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/ad6e6cf3-6159-4083-aba1-87069307b1cc)
 
 #### Lifecycle of Redux 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/8ab4d8a4-c6cc-4791-8c77-6b6fa2c5eca1)
@@ -202,7 +218,11 @@ In React, we can use react-router-dom library's `<Link>` tag instaed of  `<a>` t
 ---
 
 # LocalStorage & SessionStorage
+
+#### What is LocalStorage & SessionStorage?
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c212468e-5999-4027-9996-2877939b6362)
+
+#### Methods of LocalStorage & SessionStorage
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c6fbee6e-18d4-4e7b-bfb5-7e22566f0fcb)
 
 ---
