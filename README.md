@@ -209,12 +209,6 @@ const getData = () => {
     - don't do full page reload
 
 In React, we can use react-router-dom library's `<Link>` tag instaed of  `<a>` tag
-
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/08567fa7-7326-401f-98cd-1581f0f2402f)
-
-### Nested Routing
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/912fc314-e638-4210-a5ef-cc47f06e0813)
-
 ---
 
 # LocalStorage & SessionStorage
@@ -226,8 +220,6 @@ In React, we can use react-router-dom library's `<Link>` tag instaed of  `<a>` t
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/c6fbee6e-18d4-4e7b-bfb5-7e22566f0fcb)
 
 ---
-
-
 
 # Appedixes
 ## Required Installations 
