@@ -2,7 +2,7 @@ import React, { useEffect, useLayoutEffect } from "react";
 
 export default function UseLayoutEffect_Demo() {
 
-  //yseEffect will render as sequence
+  //useEffect will render as sequence
   useEffect(() => {
     console.log("Render useEffect 1");
   })

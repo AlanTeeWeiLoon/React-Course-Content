@@ -9,4 +9,4 @@ function ComponentB({sample}) {
     </div>
   )
 }
-export default  memo(ComponentB)
+export default memo(ComponentB)

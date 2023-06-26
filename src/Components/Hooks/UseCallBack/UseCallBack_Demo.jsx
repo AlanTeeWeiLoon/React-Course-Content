@@ -1,4 +1,4 @@
-import React, { useCallback, useState, useMemo, useEffect } from "react";
+import React, { useCallback, useState} from "react";
 import ComponentA from "./ComponentA";
 import ComponentB from "./ComponentB";
 

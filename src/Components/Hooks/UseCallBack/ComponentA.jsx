@@ -9,4 +9,4 @@ function ComponentA({sample}) {
     </div>
   )
 }
-export default  ComponentA
+export default ComponentA
