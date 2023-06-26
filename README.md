@@ -91,10 +91,20 @@ Background: When Facebook created React, the main concept introduced into React 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/2db1e036-d426-43f7-b65a-7327eace94eb)
 
 ## UseContext
+
+useContext hook is designed to solve **Props Drilling** issue. Props drilling is when a parent component passes data down to its children and then those children pass the same data down to their own children. And maybe some of the children is no need the props, then this will cause many unnessary workload.
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/24e43c30-4d45-4319-b024-99860b351c9e)
 
+useContext is the best solution to solve props drilling issue in **small size project**. For large project that consist of large number of data, may use redux to manage.
+
 ## UseReducer
+
+useReducer helps to manage complex state logic in React applications.
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/053c7e71-7a40-4220-883b-5495b4bab2a4)
+
+`const [state, dispatch] = useReducer(reducer, initialArg, init?)`
 
 ## UseParams
 Provide by react-router-dom library, it's the routing parameters
@@ -110,10 +120,29 @@ URL path: "/user/:id" , so we can
 
 to get the id.
 
+## UseCallback
+
+useCallback is to prevent a component from re-rendering unless its props have changed.
+
+`const cachedFn = useCallback(fn, dependencies)`
+
 ---
 
 # AXIOS
+Axios in React is a library that serves to create promised-based HTTP requests. It has the ability to make HTTP requests from the browser and handle the transformation of request and response data. It support Create, Read, Update and Delete **(CRUD)** methods. 
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/faecd7f5-0001-4988-b430-280c5ba4c2ec)
+
+Sample:
+
+```
+const getData = () => {
+    axios
+      .get("http://localhost:4000/comments")
+      .then((response) => setComment(response.data))
+      .catch((error) => console.log(error))
+  }
+```
 
 ---
 
@@ -142,9 +171,8 @@ to get the id.
 State Mangement Library
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/72488795-976b-4dfb-9d78-b68955398456)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/06596943-4aab-4346-8282-7366a1357f3f)
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/5a5e5932-ab09-40b9-bc79-8dad59a3e80b)
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/ad6e6cf3-6159-4083-aba1-87069307b1cc)
-![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/214f8e15-e692-43cf-93a7-0f2c0b1692ee)
+
 
 #### Lifecycle of Redux 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/8ab4d8a4-c6cc-4791-8c77-6b6fa2c5eca1)
