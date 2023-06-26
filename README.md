@@ -21,7 +21,7 @@ Background: When Facebook created React, the main concept introduced into React 
 ### DOM
 #### Traditional Way of Development
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/371676a2-33d8-41b0-ba37-b5efdb73fd0c)
-<p>Everytime when any of the element update, will re-render the entire DOM again, this causes a lot of unnecessary workload!</p>
+<p>Everytime when any of the element update, will re-render the entire DOM again, this causes a lot of unnecessary workload! E.g. If there is a name variable changed from Peter to John in a child element of < Body > then entire HTML should re-render again.</p>
 
 #### React Virtual DOM 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/5c032f71-38e2-4298-be06-c0e3ad9dfcee)
@@ -34,7 +34,7 @@ Background: When Facebook created React, the main concept introduced into React 
 - Everything is a component in React
 - Two types:
     - Functional component - NEW
-    - Class based component - OLD
+    - Class-based component - OLD
 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/fa82e43c-6722-452a-807d-b4a2a2d4b61c)
 <p>Every part of the webpage can spread into small components, and all the component is reuseable.</p>
@@ -72,8 +72,19 @@ Background: When Facebook created React, the main concept introduced into React 
 <p>In React, that is a new way to create variable. If we need to create local variables in React, then need to use state variables. State variables are created using <b>useState</b> hook. </p>
 
 ## UseEffect
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/658586d6-828f-4955-94f7-0d74afeb3678)
+
+<p>useEffect is a function. We call this function by passing another function to it which is a callback function.</p>
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/d26ee541-d9bf-4890-b06b-3a3b39e47f6f)
+
+`useEffect(callback function, dependency array)`
+
+<p>Callback function means the function is not called immediately but called whenever useEffect wanted it to be called.</p>
+
+<p>useEffect will be called on every re-render, this is a bad way. So id dont want to call it after every re-render, we have to pass in a dependency array.</p>
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/a5c6d5e3-851c-40e5-a9c6-bbf8adf41c8b)
 
 ## UseRef
@@ -84,6 +95,20 @@ Background: When Facebook created React, the main concept introduced into React 
 
 ## UseReducer
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/053c7e71-7a40-4220-883b-5495b4bab2a4)
+
+## UseParams
+Provide by react-router-dom library, it's the routing parameters
+
+Example: 
+URL path: "/user/:id" , so we can
+
+`import {useParams} from 'react-router-dom';`
+
+`const params = useParams();`
+
+`const {id} = params;`
+
+to get the id.
 
 ---
 
@@ -127,6 +152,25 @@ State Mangement Library
 ---
 
 # Router
+
+### Problem with anchor tag < a >
+
+`<a>` will relead the entire page when it is clicked. It disrupts user experience and can result in a slower page load time. This cause problems for **Single Page Applications (SPAs)**.
+
+### Single Page Applications (SPAs)
+
+<p>React apps are SPAs. Having SPAs will not reload, it will not make network call when we are changing pages. It loads a single HTML page and dynamically update the page in response to users without reloading the entire page. </p>
+
+### Type of Routing
+- Server-side routing
+    - pages come from servers
+    - will make network call, get the HTML, JS, CSS and loads the whole page
+- Client-side routing
+    - dynamically update content of SPA in response to change in URL
+    - don't do full page reload
+
+In React, we can use react-router-dom library's `<Link>` tag instaed of  `<a>` tag
+
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/08567fa7-7326-401f-98cd-1581f0f2402f)
 
 ### Nested Routing
