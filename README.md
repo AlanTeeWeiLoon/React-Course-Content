@@ -83,7 +83,7 @@ Background: When Facebook created React, the main concept introduced into React 
 
 <p>Callback function means the function is not called immediately but called whenever useEffect wanted it to be called.</p>
 
-<p>useEffect will be called on every re-render, this is a bad way. So id dont want to call it after every re-render, we have to pass in a dependency array.</p>
+<p>useEffect will be called on every re-render, this is a bad way. So if dont want to call it after every re-render, we have to pass in a dependency array.</p>
 
 ![image](https://github.com/AlanTeeWeiLoon/React-Course-Content/assets/104622787/a5c6d5e3-851c-40e5-a9c6-bbf8adf41c8b)
 
@@ -194,7 +194,7 @@ const getData = () => {
 
 ### Problem with anchor tag < a >
 
-`<a>` will relead the entire page when it is clicked. It disrupts user experience and can result in a slower page load time. This cause problems for **Single Page Applications (SPAs)**.
+`<a>` will reload the entire page when it is clicked. It disrupts user experience and can result in a slower page load time. This cause problems for **Single Page Applications (SPAs)**.
 
 ### Single Page Applications (SPAs)
 
